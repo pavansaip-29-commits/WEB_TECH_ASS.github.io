@@ -1,0 +1,19 @@
+
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f5f7fb;color:#18202a;line-height:1.6}
+a{color:#1456c0}
+.nav{background:#111827;color:white;padding:14px 20px;display:flex;gap:18px;flex-wrap:wrap}
+.nav a{color:white;text-decoration:none;font-weight:700}
+.container{max-width:1100px;margin:30px auto;padding:0 18px}
+.card{background:white;border-radius:14px;padding:24px;margin:18px 0;box-shadow:0 5px 18px #00000012}
+h1,h2{line-height:1.2}
+button,input,select,textarea{font:inherit;padding:9px;border:1px solid #ccd3df;border-radius:8px}
+button{background:#1456c0;color:white;border:0;cursor:pointer}
+button:hover{opacity:.9}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.hero{background:linear-gradient(135deg,#111827,#1456c0);color:white;padding:55px 20px;text-align:center}
+.badge{display:inline-block;background:#e8f0ff;color:#1456c0;padding:4px 10px;border-radius:999px}
+table{width:100%;border-collapse:collapse;background:white}
+th,td{border:1px solid #ccd3df;padding:9px;text-align:left}
+pre{background:#111827;color:#e5e7eb;padding:15px;border-radius:10px;overflow:auto}
+.output{margin-top:12px;padding:12px;background:#eef6ff;border-left:4px solid #1456c0}
